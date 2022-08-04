@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#header .profile img {
+  margin: 15px auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #2c2f3f;
+}
+.rounded-circle {
+  border-radius: 50%!important;
+}
+#header .profile h1 a, #header .profile h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#header .profile .social-links svg{
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-menu>ul>li {
+  position: relative;
+  white-space: nowrap;
+}
+.nav-menu a, .nav-menu a:focus {
+  display: flex;
+  align-items: center;
+  color: #a8a9b4;
+  padding: 5px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover>a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-menu a svg, .nav-menu a:focus svg {
+  font-size: 36px;
+  padding-right: 8px;
+}
+#bg-left{
+  height: 100vh;
+  background: #040b14;
+  position: relative;
+}
+/* #bg-right{
+  height: 100vh;
+} */
+.bg-set{
+  background: url('./pages/background.jpg');
+ background-position: center;
+ height: 100%;
+}
+
+#footer {
+  padding: 15px;
+  color: #f4f6fd;
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+  background: #040b14;
+}
+
+#header .profile h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+.nav-menu {
+  padding: 30px 0 0 0 !important;
+}
+
+#navbar li span{
+  font-size: 24px;
+}
+#navbar li a{
+  text-decoration: none;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.skills .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+}
+.progress-bar{
+  height: 12px;
+}
+/* .progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: var(--bs-progress-bar-color);
+  text-align: center;
+  white-space: nowrap;
+  background-color: var(--bs-progress-bar-bg);
+  transition: var(--bs-progress-bar-transition);
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #149ddd;
+} */
+
+.progress-bar.p2{
+  width: 25%;
+}
+.progress-bar.p3{
+  width: 50%;
+}
+.progress-bar.p4{
+  width: 75%;
+}
+.progress-bar.p4{
+  width: 100%;
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+li::marker{
+  font-size: 0;
+}
+.content ul li{
+  padding-bottom: 10px;
+}
+.section-bg {
+  background: #f5f8fd;
+}
+
+.active .section-bg {
+  background: #f5f8fd;
+}
